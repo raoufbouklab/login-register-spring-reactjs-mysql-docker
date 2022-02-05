@@ -55,7 +55,7 @@ export default class Register extends Component {
                     <div className="col-sm-9">
                         <form className="form-horizontal" onSubmit={this.handleSubmit}>
                         <div className="form-group">
-                                <label htmlFor="register_username" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Username</label>
+                                <label htmlFor="register_username" className="control-label col-sm-3">Username</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="text"
@@ -67,7 +67,7 @@ export default class Register extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="register_firstName" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Firstname</label>
+                                <label htmlFor="register_firstName" className="control-label col-sm-3">First Name</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="text"
@@ -79,7 +79,7 @@ export default class Register extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="register_lastName" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Lastname</label>
+                                <label htmlFor="register_lastName" className="control-label col-sm-3">Last Name</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="text"
@@ -91,7 +91,7 @@ export default class Register extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="register_email" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Email</label>
+                                <label htmlFor="register_email" className="control-label col-sm-3">Email</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="text"
@@ -104,7 +104,7 @@ export default class Register extends Component {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="register_password" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Password</label>
+                                <label htmlFor="register_password" className="control-label col-sm-3">Password</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="password"

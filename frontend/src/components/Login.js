@@ -62,7 +62,7 @@ export default class Login extends Component {
                         <form className="form-horizontal" onSubmit={this.handleSubmit}>
 
                             <div className="form-group">
-                                <label htmlFor="signin_username" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Username</label>
+                                <label htmlFor="signin_username" className="control-label col-sm-3">Username</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="text"
@@ -75,7 +75,7 @@ export default class Login extends Component {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="signin_password" className="control-label col-sm-3"><span className="required">*</span>&nbsp;Password</label>
+                                <label htmlFor="signin_password" className="control-label col-sm-3">Password</label>
                                 <div className="col-sm-9">
                                     <input className="form-control"
                                            type="password"
